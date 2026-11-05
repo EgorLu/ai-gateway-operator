@@ -195,13 +195,6 @@ rules:
   verbs:
   - update
 - apiGroups:
-  - apps
-  resources:
-  - replicasets
-  verbs:
-  - get
-  - list
-- apiGroups:
   - authentication.k8s.io
   resources:
   - tokenreviews
